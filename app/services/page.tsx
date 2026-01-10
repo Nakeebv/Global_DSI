@@ -48,7 +48,7 @@ export default function ServicesPage() {
       timeline: "5-6 months",
       pricing: "$27,000 - $35,000",
       isCustom: true,
-      image: "/images/comprehensivemvp.jpg",
+      image: "/images/Comprehensivemvp.jpg",
     },
     {
       id: "saas",
@@ -92,7 +92,7 @@ export default function ServicesPage() {
       technologies: ["OpenAI", "Python", "TensorFlow", "Langchain", "Pinecone", "Vercel AI SDK"],
       timeline: "4-10 weeks",
       pricing: "Starting at $8,000",
-      image: "/images/web_app.jpg",
+      image: "/images/Web_app.jpg",
     },
     {
       id: "integration",
