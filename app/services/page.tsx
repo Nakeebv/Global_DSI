@@ -4,7 +4,7 @@ import { HeroBackground } from "@/components/hero-background"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import Image from "next/image"
+import Image from "next/public/image"
 import {
   Globe,
   Rocket,
