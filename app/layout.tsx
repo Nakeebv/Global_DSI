@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Roboto, Roboto_Mono } from "next/font/google"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css"
 
 const roboto = Roboto({
@@ -42,7 +43,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${roboto.variable} ${robotoMono.variable} antialiased`}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   )
 }
