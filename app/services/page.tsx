@@ -136,7 +136,7 @@ export default function ServicesPage() {
       technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       timeline: "4-12 weeks",
       pricing: "Starting at $6,000",
-      image: "/images/web_app1.jpg",
+      image: "/images/webapplication.jpg",
     },
     {
       id: "custom",
