@@ -4,7 +4,7 @@ import { HeroBackground } from "@/components/hero-background"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import Image from "next/public/image"
+import Image from "next/image"
 import {
   Globe,
   Rocket,
@@ -136,7 +136,7 @@ export default function ServicesPage() {
       technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       timeline: "4-12 weeks",
       pricing: "Starting at $6,000",
-      image: "/images/web_app1.jpg",
+      image: "/images/web_app.jpg",
     },
     {
       id: "custom",
