@@ -109,7 +109,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2025 DAMCO SPACE INC. All rights reserved.</p>
+          <p>&copy; <script>document.write(new Date().getFullYear())</script> DAMCO SPACE INC. All rights reserved.</p>
         </div>
       </div>
     </footer>
