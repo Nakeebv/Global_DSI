@@ -57,7 +57,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <a href="tel:+13073462242" className="text-primary hover:text-primary/80 transition-colors">
-                    +1 (307) 346-2242
+                    +1 307) 998-1449
                   </a>
                   <br />
                   <a href="tel:+2348166660455" className="text-primary hover:text-primary/80 transition-colors text-sm">
