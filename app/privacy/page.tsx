@@ -103,7 +103,7 @@ export default function PrivacyPage() {
                   <p>DAMCO SPACE INC</p>
                   <p>32 N Gould St. Ste R, Sheridan, WY 82001 USA</p>
                   <p>Email: ceo@damco.space</p>
-                  <p>Phone: +1 (254) 625-9392</p>
+                  <p>Phone: +1 (307) 998-1449</p>
                   <p>Phone: +234 8166660455</p>
                 </div>
               </section>
