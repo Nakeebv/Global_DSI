@@ -255,10 +255,10 @@ export default function AboutPage() {
                       <div className="flex items-center text-sm">
                         <Phone className="h-4 w-4 text-primary mr-3" />
                         <a
-                          href="tel:+12546259392"
+                          href="tel:+13079981449"
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          +1 (254) 625-9392
+                          +1 (307) 998-1449
                         </a>
                       </div>
                       <div className="flex items-center text-sm">
