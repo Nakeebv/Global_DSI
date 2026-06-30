@@ -246,10 +246,10 @@ export default function AboutPage() {
                       <div className="flex items-center text-sm">
                         <Mail className="h-4 w-4 text-primary mr-3" />
                         <a
-                          href="mailto:ceo@damco.space"
+                          href="mailto:ceo@damcospace.com"
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          ceo@damco.space
+                          ceo@damcospace.com
                         </a>
                       </div>
                       <div className="flex items-center text-sm">

@@ -1,6 +1,6 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { HeroBackground } from "@/components/hero-background"
+import { InteractiveHero } from "@/components/ui/interactive-hero-backgrounds"
 import { ContactForm } from "@/components/contact-form"
 import { ServiceRequestForm } from "@/components/service-request-form"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,63 +13,63 @@ export default function ContactPage() {
       <Header />
 
       <main>
-        {/* Hero Section */}
-        <section className="relative py-20 lg:py-32 overflow-hidden">
-          <HeroBackground />
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-                Let's Build Something
-                <span className="text-primary block mt-2">Amazing Together</span>
-              </h1>
-              <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-                Ready to transform your business with custom software? Get in touch to discuss your project and receive
-                a detailed proposal.
-              </p>
-            </div>
-          </div>
-        </section>
+        <InteractiveHero
+          brandName="DAMCO SPACE INC"
+          heroTitle="Let's Build Something Amazing Together"
+          heroDescription="Ready to transform your business with custom software? Get in touch to discuss your project and receive a detailed proposal."
+          emailPlaceholder="ceo@damcospace.com"
+          emailAddress="ceo@damcospace.com"
+          ballpitConfig={{
+            count: 150,
+            gravity: 0.5,
+            friction: 0.99,
+            minSize: 0.4,
+            maxSize: 0.9,
+            lightIntensity: 4,
+          }}
+        />
 
         {/* Contact Information */}
-        <section className="py-16 bg-muted/30">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative overflow-hidden bg-background py-16">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_10%,rgba(34,211,238,0.12),transparent_28%),radial-gradient(circle_at_85%_0%,rgba(59,130,246,0.12),transparent_24%)] dark:bg-slate-950" />
+          <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-              <Card className="text-center">
+              <Card className="text-center border-white/15 bg-white/80 shadow-xl backdrop-blur-md dark:bg-slate-950/60">
                 <CardHeader className="pb-4">
-                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
-                    <Mail className="h-6 w-6 text-primary" />
+                  <div className="h-12 w-12 rounded-full bg-cyan-500/10 flex items-center justify-center mx-auto mb-3">
+                    <Mail className="h-6 w-6 text-cyan-500" />
                   </div>
                   <CardTitle className="text-lg">Email</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <a href="mailto:ceo@damco.space" className="text-primary hover:text-primary/80 transition-colors">
-                    ceo@damco.space
+                  <a href="mailto:ceo@damcospace.com" className="text-cyan-600 hover:text-cyan-500 transition-colors dark:text-cyan-300">
+                    ceo@damcospace.com
                   </a>
                 </CardContent>
               </Card>
 
-              <Card className="text-center">
+              <Card className="text-center border-white/15 bg-white/80 shadow-xl backdrop-blur-md dark:bg-slate-950/60">
                 <CardHeader className="pb-4">
-                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
-                    <Phone className="h-6 w-6 text-primary" />
+                  <div className="h-12 w-12 rounded-full bg-cyan-500/10 flex items-center justify-center mx-auto mb-3">
+                    <Phone className="h-6 w-6 text-cyan-500" />
                   </div>
                   <CardTitle className="text-lg">Phone</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <a href="tel:+13073462242" className="text-primary hover:text-primary/80 transition-colors">
-                    +1 307) 998-1449
+                  <a href="tel:+13079981449" className="text-cyan-600 hover:text-cyan-500 transition-colors dark:text-cyan-300">
+                    +1 (307) 998-1449
                   </a>
                   <br />
-                  <a href="tel:+2348166660455" className="text-primary hover:text-primary/80 transition-colors text-sm">
+                  <a href="tel:+2348166660455" className="text-cyan-600 hover:text-cyan-500 transition-colors text-sm dark:text-cyan-300">
                     +234 8166660455
                   </a>
                 </CardContent>
               </Card>
 
-              <Card className="text-center">
+              <Card className="text-center border-white/15 bg-white/80 shadow-xl backdrop-blur-md dark:bg-slate-950/60">
                 <CardHeader className="pb-4">
-                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
-                    <MapPin className="h-6 w-6 text-primary" />
+                  <div className="h-12 w-12 rounded-full bg-cyan-500/10 flex items-center justify-center mx-auto mb-3">
+                    <MapPin className="h-6 w-6 text-cyan-500" />
                   </div>
                   <CardTitle className="text-lg">Location</CardTitle>
                 </CardHeader>
@@ -84,10 +84,10 @@ export default function ContactPage() {
                 </CardContent>
               </Card>
 
-              <Card className="text-center">
+              <Card className="text-center border-white/15 bg-white/80 shadow-xl backdrop-blur-md dark:bg-slate-950/60">
                 <CardHeader className="pb-4">
-                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
-                    <Clock className="h-6 w-6 text-primary" />
+                  <div className="h-12 w-12 rounded-full bg-cyan-500/10 flex items-center justify-center mx-auto mb-3">
+                    <Clock className="h-6 w-6 text-cyan-500" />
                   </div>
                   <CardTitle className="text-lg">Response Time</CardTitle>
                 </CardHeader>
@@ -102,9 +102,9 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Forms */}
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl mx-auto relative z-10">
               <Tabs defaultValue="general" className="w-full">
-                <TabsList className="grid w-full grid-cols-2 mb-8">
+                <TabsList className="grid w-full grid-cols-2 mb-8 bg-white/70 shadow-lg backdrop-blur-md dark:bg-slate-950/70">
                   <TabsTrigger value="general" className="flex items-center gap-2">
                     <MessageSquare className="h-4 w-4" />
                     General Inquiry
@@ -116,7 +116,7 @@ export default function ContactPage() {
                 </TabsList>
 
                 <TabsContent value="general">
-                  <Card>
+                  <Card className="border-white/15 bg-white/85 shadow-2xl backdrop-blur-md dark:bg-slate-950/70">
                     <CardHeader>
                       <CardTitle className="font-serif text-2xl">Get In Touch</CardTitle>
                       <CardDescription>
@@ -131,7 +131,7 @@ export default function ContactPage() {
                 </TabsContent>
 
                 <TabsContent value="service">
-                  <Card>
+                  <Card className="border-white/15 bg-white/85 shadow-2xl backdrop-blur-md dark:bg-slate-950/70">
                     <CardHeader>
                       <CardTitle className="font-serif text-2xl">Request a Service Quote</CardTitle>
                       <CardDescription>
@@ -150,7 +150,7 @@ export default function ContactPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-20 bg-background">
+        <section className="py-20 bg-background dark:bg-slate-950">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto">
               <div className="text-center mb-16">
@@ -161,7 +161,7 @@ export default function ContactPage() {
               </div>
 
               <div className="space-y-6">
-                <Card>
+                <Card className="border-border/70 bg-card/85 shadow-lg backdrop-blur-md">
                   <CardHeader>
                     <CardTitle className="text-lg">How long does a typical project take?</CardTitle>
                   </CardHeader>
@@ -173,7 +173,7 @@ export default function ContactPage() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="border-border/70 bg-card/85 shadow-lg backdrop-blur-md">
                   <CardHeader>
                     <CardTitle className="text-lg">What's included in the project cost?</CardTitle>
                   </CardHeader>
@@ -185,7 +185,7 @@ export default function ContactPage() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="border-border/70 bg-card/85 shadow-lg backdrop-blur-md">
                   <CardHeader>
                     <CardTitle className="text-lg">Do you provide ongoing support?</CardTitle>
                   </CardHeader>
@@ -197,7 +197,7 @@ export default function ContactPage() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="border-border/70 bg-card/85 shadow-lg backdrop-blur-md">
                   <CardHeader>
                     <CardTitle className="text-lg">Can you work with my existing team?</CardTitle>
                   </CardHeader>

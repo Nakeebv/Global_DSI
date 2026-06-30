@@ -83,7 +83,7 @@ export default function InvoicePage() {
                   <p className="font-semibold text-foreground">DAMCO SPACE INC</p>
                   <p>Custom Software Solutions</p>
                   <p>32 N Gould St. Ste R, Sheridan, WY 82001 USA</p>
-                  <p>Email: ceo@damco.space</p>
+                  <p>Email: ceo@damcospace.com</p>
                   <p>Phone: +1 (254) 625-9392</p>
                   <p>Phone: +234 8166660455</p>
                   <p>Website: nahabass.damco.space</p>
@@ -185,7 +185,7 @@ export default function InvoicePage() {
               <div className="mt-4 p-4 bg-secondary rounded-lg">
                 <p className="text-sm text-muted-foreground">
                   <strong>Note:</strong> Thank you for choosing DAMCO SPACE INC. For questions about this invoice,
-                  please contact us at ceo@damco.space or +1 (254) 625-9392. All services have been completed to
+                  please contact us at ceo@damcospace.com or +1 (254) 625-9392. All services have been completed to
                   specification and tested thoroughly.
                 </p>
               </div>
@@ -194,7 +194,7 @@ export default function InvoicePage() {
             {/* Footer */}
             <div className="mt-8 pt-6 border-t border-border text-center text-sm text-muted-foreground">
               <p>DAMCO SPACE INC | Custom Software Solutions</p>
-              <p>ceo@damco.space | +1 (254) 625-9392 | +234 8166660455 | nahabass.damco.space</p>
+              <p>ceo@damcospace.com | +1 (254) 625-9392 | +234 8166660455 | nahabass.damco.space</p>
             </div>
           </Card>
         </div>

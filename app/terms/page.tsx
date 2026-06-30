@@ -114,7 +114,7 @@ export default function TermsPage() {
                 <div className="mt-4 text-muted-foreground">
                   <p>DAMCO SPACE INC</p>
                   <p>32 N Gould St. Ste R, Sheridan, WY 82001 USA</p>
-                  <p>Email: ceo@damco.space</p>
+                  <p>Email: ceo@damcospace.com</p>
                   <p>Phone: +1 (307) 998-1449</p>
                   <p>Phone: +234 8166660455</p>
                 </div>

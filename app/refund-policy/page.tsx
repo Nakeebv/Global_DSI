@@ -73,7 +73,7 @@ export default function RefundPolicyPage() {
                   If you have concerns about our services or billing:
                 </p>
                 <ol className="list-decimal list-inside text-muted-foreground space-y-2 ml-4">
-                  <li>Contact us directly at ceo@damco.space to discuss the issue</li>
+                  <li>Contact us directly at ceo@damcospace.com to discuss the issue</li>
                   <li>We will investigate and respond within 5 business days</li>
                   <li>If unresolved, we may engage in mediation through a neutral third party</li>
                   <li>As a last resort, disputes may be resolved through binding arbitration</li>
@@ -105,7 +105,7 @@ export default function RefundPolicyPage() {
                 <div className="mt-4 text-muted-foreground">
                   <p>DAMCO SPACE INC</p>
                   <p>32 N Gould St. Ste R, Sheridan, WY 82001 USA</p>
-                  <p>Email: ceo@damco.space</p>
+                  <p>Email: ceo@damcospace.com</p>
                   <p>Phone: +1 307) 998-1449</p>
                   <p>Phone: +234 8166660455</p>
                 </div>

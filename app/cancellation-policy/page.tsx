@@ -51,7 +51,7 @@ export default function CancellationPolicyPage() {
                 <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">3. How to Cancel</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">To cancel services:</p>
                 <ol className="list-decimal list-inside text-muted-foreground space-y-2 ml-4">
-                  <li>Send written notice to ceo@damco.space</li>
+                  <li>Send written notice to ceo@damcospace.com</li>
                   <li>Include your project details and reason for cancellation</li>
                   <li>Specify your preferred cancellation date</li>
                   <li>We will confirm receipt and provide a final invoice if applicable</li>
@@ -99,7 +99,7 @@ export default function CancellationPolicyPage() {
                 <div className="mt-4 text-muted-foreground">
                   <p>DAMCO SPACE INC</p>
                   <p>32 N Gould St. Ste R, Sheridan, WY 82001 USA</p>
-                  <p>Email: ceo@damco.space</p>
+                  <p>Email: ceo@damcospace.com</p>
                   <p>Phone: +1 (307) 998-1449</p>
                   <p>Phone: +234 8166660455</p>
                 </div>

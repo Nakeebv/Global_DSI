@@ -31,7 +31,7 @@ export default function InvoicePDF() {
             <h2 className="text-xl font-bold text-gray-900 mb-2">DAMCO SPACE INC</h2>
             <p className="text-gray-600">Software Development Services</p>
             <p className="text-gray-600">32 N Gould St. Ste R, Sheridan, WY 82001 USA</p>
-            <p className="text-gray-600">ceo@damco.space</p>
+            <p className="text-gray-600">ceo@damcospace.com</p>
             <p className="text-gray-600">+1 (254) 625-9392</p>
             <p className="text-gray-600">+234 8166660455</p>
           </div>
@@ -124,7 +124,7 @@ export default function InvoicePDF() {
             <p>• Payment is due within 30 days of invoice date</p>
             <p>• Late payments may incur a 1.5% monthly service charge</p>
             <p>• Please include invoice number with payment</p>
-            <p>• For questions regarding this invoice, contact ceo@damco.space</p>
+            <p>• For questions regarding this invoice, contact ceo@damcospace.com</p>
           </div>
         </div>
 
